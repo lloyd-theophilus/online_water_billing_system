@@ -89,7 +89,7 @@ function addCommas(nStr){
   </script>
 <script src="js/application.js" type="text/javascript" charset="utf-8"></script>	
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Billing System</title>
+<title>Online Water Billing System</title>
 <style type="text/css">
 #wrapper{
  width:100%;
@@ -140,7 +140,7 @@ float:right;
 <body>
 <div class="container">
 <div id="wrapper">
-  <h1><center><b>Water Billing System</b></center></h1>
+  <h1><center><b>Online Water Billing System</b></center></h1>
   <div style="color:#F00; font-size:12px; margin-left:900px;"> 
   <span><?php echo $sessionname;?></span><a href="logout.php">   <span class="btn btn-danger  glyphicon glyphicon-log-out">&nbsp;Logout</span></a>
   </div>

@@ -91,7 +91,7 @@ float:right;
 <body>
 <div class="container">
 <div id="wrapper">
-  <h1><center><b>Water Billing System</b></center></h1>
+  <h1><center><b>Online Water Billing System</b></center></h1>
   <div style="color:#F00; font-size:12px; margin-left:900px;"> 
   <span><?php echo $sessionname;?></span><a href="logout.php"><span class="btn btn-danger  glyphicon glyphicon-log-out">&nbsp;Logout</span></a>
   </div>
@@ -117,7 +117,7 @@ float:right;
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Water Billing System</h4>
+          <h4 class="modal-title">Online Water Billing System</h4>
         </div>
         <div class="modal-body">
           <p><?php include "addclient.php"; ?></p>
