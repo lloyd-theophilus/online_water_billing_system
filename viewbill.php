@@ -6,7 +6,7 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap/dist/css/bootstrap-theme.min.css" />
 </head>
 
-<h4>Note: Bill Amount = Total Consumption * Price/unit<br />&copy; 2016</h4>
+<h4>Note: Bill Amount = Total Consumption * Price/unit<br />&copy; 2022</h4>
 <?php
 include 'db.php';
 $id =$_REQUEST['id'];

@@ -116,7 +116,7 @@ float:right;
  </div>
 </div>
 
-<h1 align="center">Water Billing System</h1>
+<h1 align="center">Online Water Billing System</h1>
 <div id="form">
 
   <p><h1 align="center">Add Client</h1></p>
