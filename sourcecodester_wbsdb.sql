@@ -63,22 +63,22 @@ CREATE TABLE `owners` (
 --
 
 INSERT INTO `owners` (`id`, `lname`, `fname`, `mi`, `address`, `contact`) VALUES
-(1, 'Eda', 'kimei', '90', 'Mbinga', '0654100235'),
-(2, 'Den', 'Harry', '22', 'espn', '7515396522'),
-(3, 'demo', 'demo', '54', 'demo', '5454542222'),
-(4, 'walker', 'Paul', '22', 'demo address', '8521479645'),
-(5, 'kent', 'Clark', '63', 'npp', '852541000'),
-(6, 'rella', 'Ava', '52', 'demo address', '8524796320'),
-(7, 'Gadot', 'Isabella', '26', 'espp', '5552121200'),
-(8, 'stone', 'Emma', '22', 'np', '3020201050'),
-(9, 'payne', 'Liam', '10', 'eps', '2021555550'),
-(10, 'Paul', 'Logan', '36', 'Demo', '0255585429'),
-(11, 'william', 'James', '26', 'demoo', '359518522'),
-(12, 'mamoa', 'Jason', '36', 'esss', '7520003600'),
-(13, 'Holland', 'Tom', '31', 'demo address', '2225558889'),
-(14, 'Matthew', 'John', '22', 'npo', '8520258410'),
-(15, 'Doe', 'Henry', '25', 'pop', '7182934565'),
-(16, 'Jackson', 'Samuel', '23', 'sm', '8051590000');
+(1, 'Obeng', 'kwamena', '90', 'Tesano', '0654100235'),
+(2, 'Owsus', 'Harry', '22', 'Kwashiman', '7515396522'),
+(3, 'Amofa', 'Andrea', '54', 'Achimota', '5454542222'),
+(4, 'Kusi', 'Famfareba', '22', 'North Legon', '8521479645'),
+(5, 'Bamful', 'Winifred', '63', 'Osu RE', '852541000'),
+(6, 'Dadson', 'Wilson', '52', 'Dansoman', '8524796320'),
+(7, 'Tepkor', 'Isabella', '26', 'Teshie', '5552121200'),
+(8, 'Boatemaa', 'Chantel', '22', 'Chorkor', '3020201050'),
+(9, 'Komla', 'Joseph', '10', 'Madina', '2021555550'),
+(10, 'Owusu', 'Isaac', '36', 'Lapaz', '0255585429'),
+(11, 'Depkor', 'James', '26', 'Weija', '359518522'),
+(12, 'Yakubu', 'Samira', '36', 'Malam', '7520003600'),
+(13, 'Otu', 'Michael', '31', 'Ablekuma', '2225558889'),
+(14, 'Ocloo', 'John', '22', 'Tesano', '8520258410'),
+(15, 'Obeng', 'Henry', '25', 'East Legon', '7182934565'),
+(16, 'Frimpong', 'Samuel', '23', 'Kokomlemle', '8051590000');
 
 -- --------------------------------------------------------
 
@@ -97,23 +97,23 @@ CREATE TABLE `tempo_bill` (
 --
 
 INSERT INTO `tempo_bill` (`id`, `Prev`, `Client`) VALUES
-(1, '600', 'kimei'),
-(2, '500', 'Harry'),
-(3, '01', 'demo'),
-(4, '166', 'Paul'),
-(5, '230', 'Clark'),
-(6, '300', 'Ava'),
-(7, '106', 'Isabella'),
-(8, '200', 'Emma'),
-(9, '100', 'Liam'),
-(10, '366', 'Logan'),
-(11, '250', 'James'),
-(12, '500', 'Jason'),
-(13, '120', 'Tom'),
-(14, '99', 'John'),
-(15, '320', 'Henry'),
-(16, '323', 'Samuel'),
-(17, '11', 'sa');
+(1, '600', 'Obeng'),
+(2, '500', 'Owsus'),
+(3, '100', 'Amofa'),
+(4, '100', 'Kusi'),
+(5, '100', 'Bamful'),
+(6, '100', 'Dadson'),
+(7, '100', 'Tepkor'),
+(8, '100', 'Boatemaa'),
+(9, '100', 'Komla'),
+(10, '100', 'Owusu'),
+(11, '100', 'Depkor'),
+(12, '100', 'Yakubu'),
+(13, '100', 'Otu'),
+(14, '100', 'Ocloo'),
+(15, '100', 'Obeng'),
+(16, '100', 'Frimpong');
+
 
 -- --------------------------------------------------------
 
@@ -134,7 +134,7 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id`, `username`, `password`, `name`) VALUES
 (4, 'admin', 'admin', 'Harry Den'),
-(8, 'demo', 'demo', 'demo user'),
+(8, 'demo', 'demo', 'Biden Eric'),
 (9, 'markden', 'code0', 'Mark Den'),
 (10, 'christine', 'code0', 'Christine Grey');
 
