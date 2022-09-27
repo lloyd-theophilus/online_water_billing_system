@@ -161,7 +161,17 @@ INSERT INTO `user_levels` (`id`, `username`, `password`, `userlevel`) VALUES
 (3, 'user3', 'user3', '3'),
 (4, 'user4', 'user4', '4');
 
---
+
+--Consumer registration table
+CREATE TABLE `consumer` (
+
+`id` int(11) NOT NULL,
+`username` varchar(100) NOT NULL,
+`email` varchar(100) NOT NULL,
+`password` varchar(100) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+
 -- Indexes for dumped tables
 --
 
@@ -196,6 +206,8 @@ ALTER TABLE `user_levels`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table 'consumer`
+
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -229,6 +241,7 @@ ALTER TABLE `user`
 ALTER TABLE `user_levels`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
