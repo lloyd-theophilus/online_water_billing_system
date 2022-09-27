@@ -164,11 +164,10 @@ INSERT INTO `user_levels` (`id`, `username`, `password`, `userlevel`) VALUES
 
 --Consumer registration table
 CREATE TABLE `consumer` (
-
-`id` int(11) NOT NULL,
-`username` varchar(100) NOT NULL,
-`email` varchar(100) NOT NULL,
-`password` varchar(100) NOT NULL
+  `id` int(10) NOT NULL,
+  `username` varchar(20) NOT NULL,
+  `email` varchar(20) NOT NULL,
+  `password` varchar(20) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 
@@ -188,6 +187,9 @@ ALTER TABLE `owners`
   ADD PRIMARY KEY (`id`);
 
 --
+LTER TABLE `consumer`
+  ADD PRIMARY KEY (`id`);
+
 -- Indexes for table `tempo_bill`
 --
 ALTER TABLE `tempo_bill`
@@ -224,6 +226,8 @@ ALTER TABLE `owners`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
+LTER TABLE `consumer`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 -- AUTO_INCREMENT for table `tempo_bill`
 --
 ALTER TABLE `tempo_bill`
