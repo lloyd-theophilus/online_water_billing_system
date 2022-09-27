@@ -1,6 +1,6 @@
-<?php
-session_start();
+<?php session_start(); ?>
 
+<?php
 // initializing variables
 $username = "";
 $email    = "";
@@ -14,10 +14,10 @@ $db = mysqli_connect('localhost', 'root', '',"sourcecodester_wbsdb");
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
   // receive all input values from the form
-  $username = mysqli_real_escape_string($db, $_POST['username']);
-  $email = mysqli_real_escape_string($db, $_POST['email']);
-  $password_1 = mysqli_real_escape_string($db, $_POST['password_1']);
-  $password_2 = mysqli_real_escape_string($db, $_POST['password_2']);
+  $username = $_POST['username'];
+  $email = $_POST['email'];
+  $password_1 = $_POST['password_1'];
+  $password_2 = $_POST['password_2'];
 
 
 
@@ -66,8 +66,8 @@ if (isset($_POST['reg_user'])) {
 
 // LOGIN USER
 if (isset($_POST['login_user'])) {
-  $username = mysqli_real_escape_string($db, $_POST['username']);
-  $password = mysqli_real_escape_string($db, $_POST['password']);
+  $username = $_POST['username'];
+  $password = $_POST['password'];
 
   if (empty($username)) {
     array_push($errors, "Username is required");
